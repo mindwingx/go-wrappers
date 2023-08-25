@@ -50,7 +50,7 @@ go get github.com/mindwingx/go-cache-wrapper
 ##### SQL
 
 - This module enhances the usage of the `gorm` package, enabling seamless transitions between different database drivers
-  like `mongo-db`, `elastic-search`, and more, in a clear and easy manner.
+  like `mongo-db`, `elastic-search`, and more, in a clear and straightforward manner.
 
 ```go
 go get github.com/mindwingx/go-sql-wrapper

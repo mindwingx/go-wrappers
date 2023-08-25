@@ -1,0 +1,32 @@
+# handle host and ports for docker containers
+service:
+  name: go-wrappers
+  version: 0.1.0
+http:
+  host: 0.0.0.0
+  port: 8080
+  development: true
+rpc:
+  network: tcp
+  port: 8800
+sql:
+  debug: true
+  host: localhost
+  port: 5432
+  username: nex
+  password: secret
+  database: go_wrappers
+  ssl: disable
+  maxIdleConnections: 5
+  maxOpenConnections: 10
+  maxLifetimeSeconds: 10
+  SlowSqlThreshold: 5
+cache:
+  db: 0
+  host: localhost
+  port: 63790
+  password: null
+  timeout: 1s
+  username: null
+locale:
+  lang: en-US
